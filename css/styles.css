@@ -60,3 +60,54 @@ h2 {
 h3 {
     font-size: 2.4rem;
 }
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 3rem 0;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--dark-primary);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__text {
+    font-family: var(--main-font);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+/* Navegation */
+.navegation {
+    background-color: var(--dark-primary);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* margin-right: 2rem; */
+}
+
+.navegation__link {
+    font-family: var(--main-font);
+    color: var(--white);
+    font-size: 2.5rem;
+}
+
+/*
+.navegation__link:last-of-type {
+    margin-right: 0;
+}
+*/
+
+.navegation__link--active,
+.navegation__link:hover {
+    color: var(--secondary);
+}
